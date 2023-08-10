@@ -12,7 +12,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Full Stack Developer", "Software Engineer" ];
   const period = 2000;
-
+           
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
