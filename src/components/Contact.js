@@ -112,19 +112,7 @@ export const Contact = () => {
                     <div className="formcarry-block">
                       <button type="submit">Send</button>
                     </div>
-                    <div>
-                      <p>
-                        <small>
-                          <center>
-                            (Powered by
-                            <a rel="nofollow" href="Un-static Forms">
-                              Un-static Forms
-                            </a>
-                            )
-                          </center>
-                        </small>
-                      </p>
-                    </div>
+                    <div></div>
                   </form>
                 </div>
               )}
