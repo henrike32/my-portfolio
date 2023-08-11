@@ -1,10 +1,15 @@
-import { Container, Row, Col } from "react-bootstrap";
-import hlogo from "../assets/img/hlogo.png";
-import linkedin from '../assets/img/linkedin.png';
-import github from '../assets/img/github.png';
-import instagram from '../assets/img/instagram.png';
+import { Container, Row, Col } from "react-bootstrap"
+import hlogo from "../assets/img/hlogo.png"
+import linkedin from '../assets/img/linkedin.png'
+import github from '../assets/img/github.png'
+import instagram from '../assets/img/instagram.png'
+import backtotop from '../assets/img/backtotop.png'
 
 export const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   return (
     <footer className="footer">
       <Container>
@@ -13,11 +18,12 @@ export const Footer = () => {
             <img className="f-logo" src={hlogo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-          {/* <div className="social-icon">
-                <a href="https://www.linkedin.com/in/hslambert/"><img className="social-img" src={linkedin} alt="LinkedIn" /></a>
+          <div className="social-icon">
+                {/* <a href="https://www.linkedin.com/in/hslambert/"><img className="social-img" src={linkedin} alt="LinkedIn" /></a>
                 <a href="https://github.com/henrike32"><img className="social-img" src={github} alt="GitHub" /></a>
-                <a href="https://www.instagram.com/serhenri/"><img className="social-img" src={instagram} alt="Instagram" /></a>
-              </div> */}
+                <a href="https://www.instagram.com/serhenri/"><img className="social-img" src={instagram} alt="Instagram" /></a> */}
+                <button onClick={scrollToTop}><img className="back-to-top-button-img" src={backtotop} alt="Top" /></button>
+              </div>
             <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>

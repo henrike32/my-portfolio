@@ -96,7 +96,7 @@ nav.navbar {
   justify-content: space-between; /* Distribute space between the elements */
   align-items: center;
   padding: 0px 0;
-  position: relative;
+  position: fixed;
   background-color: white;
   width: 100%;
   top: 0;
@@ -130,6 +130,7 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
+    padding-top: 1%;
     display: inline-block;
     margin-left: 14px;
     justify-content: center; /* Center the nav items horizontally */
@@ -141,7 +142,8 @@ span.navbar-text {
   width: 50px !important;
 }
 
-.social-icon a {
+
+.social-icon a button{
     width: 50px;
     height: 50px;
     background: #fff;
@@ -416,6 +418,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-size: cover;
   background-repeat:repeat;
+  width:100%;
+  height:auto;
 }
 .project h2 {
 	font-size: 45px;
@@ -708,23 +712,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+.back-to-top-button-img {
+  height: auto;
+  width: 70px !important;
+}
+
+
 /* ------------- Gradient Background ------------- */
 
 .gradient-background {
   background: linear-gradient(90deg,#052340, #FFFFFF );
   background-size: 400% 400%;
-  /* animation: gradientAnimation 30s ease-in-out infinite; */
   }
-/*   
-  @keyframes gradientAnimation {
-  0% {
-  background-position: 0% 50%;
-  }
-  50% {
-  background-position: 100% 50%;
-  }
-  100% {
-  background-position: 0% 50%;
-  }
-  }  */
-  
