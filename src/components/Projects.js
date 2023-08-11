@@ -2,6 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import ggameverse from "../assets/img/ggameverse.gif";
 import gpokitinder from "../assets/img/gpokitinder.gif"
+import gtbh from "../assets/img/gtbh.gif"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css/animate.min.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,20 +12,20 @@ export const Projects = () => {
   const projects = [
     {
       title: "Poki Tinder",
-      description: "React on Rails",
+      description: "React / RubyOnRails Click to see",
       imgUrl: gpokitinder,
-      link: "https://poki-tinder.vercel.app/pokemonIndex"
+      link: "https://poki-tinder.vercel.app/pokemonIndex",
     },
     {
       title: "GameVerse",
-      description: "Design & Development",
+      description: "React / RubyOnRails Click to see",
       imgUrl: ggameverse,
       link:"https://gameversefront.onrender.com/"
     },
     {
       title: "TBH Apartment",
-      description: "Design & Development",
-      imgUrl: gpokitinder,
+      description: "React / RubyOnRails Click to see",
+      imgUrl: gtbh,
     },
     // {
     //   title: "Project 4",
