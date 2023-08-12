@@ -12,20 +12,21 @@ export const Projects = () => {
   const projects = [
     {
       title: "Poki Tinder",
-      description: "React / RubyOnRails Click to see",
+      description: "React / RubyOnRails Click to see files",
       imgUrl: gpokitinder,
-      link: "https://poki-tinder.vercel.app/pokemonIndex",
+      link: "https://github.com/henrike32/PokiTinder",
     },
     {
       title: "GameVerse",
-      description: "React / RubyOnRails Click to see",
+      description: "React / RubyOnRails Click to see files",
       imgUrl: ggameverse,
-      link:"https://gameversefront.onrender.com/"
+      link:"https://github.com/orgs/Yuhje-Gaming/repositories"
     },
     {
       title: "TBH Apartment",
-      description: "React / RubyOnRails Click to see",
+      description: "React / RubyOnRails Click to see files",
       imgUrl: gtbh,
+      link: "https://github.com/henrike32/tbhenri",
     },
     // {
     //   title: "Project 4",
