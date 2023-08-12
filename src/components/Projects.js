@@ -1,5 +1,5 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import ggameverse from "../assets/img/ggameverse.gif";
 import gpokitinder from "../assets/img/gpokitinder.gif";
 import gtbh from "../assets/img/gtbh.gif";
@@ -29,6 +29,22 @@ export const Projects = () => {
     },
   ];
 
+  const ProjectCard = ({ title, description, imgUrl, link }) => {
+    return (
+      <Col size={12} sm={6} md={4}>
+        <a href={link} className="proj-link" target="_blank">
+          <div className="proj-imgbx">
+            <img src={imgUrl} alt={title} />
+            <div className="proj-txtx">
+              <h4>{title}</h4>
+              <span>{description}</span>
+            </div>
+          </div>
+        </a>
+      </Col>
+    );
+  };
+
   return (
     <section className="project" id="project">
       <Container>
@@ -47,7 +63,7 @@ export const Projects = () => {
                     on, their respective animation and Tech Stack used can be
                     shown when you hover on each card, I will be adding more improvements soon.
                   </p>
-                  <div>
+                  <div className="project-cards-spacing">
                     <Row>
                       {projects.map((project, index) => {
                         return <ProjectCard key={index} {...project} />;
@@ -60,7 +76,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="Background" />
     </section>
   );
 };
