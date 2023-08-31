@@ -7,7 +7,8 @@
 -There's a link to each of my main projects, a contact form to get in touch with me.
 
 ## Running the project:
--Simply install React
+-run $yarn install
+-Install React
 
 ## Dependencies:
 
