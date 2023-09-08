@@ -1,15 +1,15 @@
 ## Henrique's PORTFOLIO
 
 ## Overview 
--This project was started so I could showcase my skills along projects.
+This project was started so I could showcase my skills along projects.
 
 ## Features
--There's a link to each of my main projects, a contact form to get in touch with me.
--You can also click on my Social Media to get in touch so we can support each other!
+There's a link to each of my main projects, a contact form to get in touch with me.
+You can also click on my Social Media to get in touch so we can support each other!
 
 ## Running the project:
--run $yarn install
--Install React
+$yarn install
+$install React
 
 ## Dependencies:
 
