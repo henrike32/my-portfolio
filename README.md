@@ -1,7 +1,7 @@
 ## Henrique's PORTFOLIO
 
 ## Overview 
-This project was started so I could showcase my skills along projects.
+This project was started so I could showcase my skills along projects and to practice all that I've learned so far.
 
 ## Features
 There's a link to each of my main projects, a contact form to get in touch with me.
